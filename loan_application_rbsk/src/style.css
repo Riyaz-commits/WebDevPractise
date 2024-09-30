@@ -1,0 +1,124 @@
+body{
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+form{
+color: rgb(231, 233, 241);
+font-family: sans-serif;
+
+margin-left:10%;
+margin-top: 10%;
+}
+h1{
+    text-shadow: 3px 1px 5px hsl(143, 100%, 61%);
+    margin: 6px;
+    margin-left: 500px;
+    font-size: 50px;
+}
+p{
+    color: #6ee2e2;
+    font-family: "consalas";
+    font-style: italic;
+    font-weight:bold;
+    height: 50px;
+    text-align: center;
+    width: 1000px;
+    text-decoration: rgb(223, 227, 227)  ;
+    font-size: 18px;
+    border-style:solid;
+    border-width: 5px;
+    background: tomato;
+    border-color:gold ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:1%;
+    padding: 3px;
+    
+   
+}
+
+.pagination{
+    text-align: center;
+
+}
+
+.pagination a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+  background-color: hsl(143, 100%, 61%);
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.pagination a:hover:not(.active){
+    background-color: hsl(264, 80%, 27%);
+    border-radius: 10px;
+    font-weight: bold;
+  }
+.success-message {
+        display: none; /* Hidden by default */
+        color: green;
+        margin-top: 20px;
+        font-family: sans-serif;
+    
+    }
+    .navbar
+    {
+        background-color: hsl(109, 37%, 39%);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1px; /* Add padding for height */
+        width: calc(100% - 40px); /* Full width minus margins */
+        box-sizing: border-box; /* Include padding in width */
+        
+        display: flex; /* Enable Flexbox */
+        justify-content: space-between; /* Center elements horizontally */
+        height: 60px;
+        align-items: center;
+      /* Center elements vertically */
+    }
+    .navbar ui{
+       
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        border: #1a1b1b;
+        margin-left: 20px;
+        display: block;
+
+    }
+    
+
+    .navbar a{
+       color: rgb(2, 2, 30);
+       text-decoration:none;
+       padding: 15px;
+       display: block;
+       text-align: center;
+       overflow: hidden;
+      
+
+    }
+
+    .navbar a:hover{
+        background-color: rgb(30, 30, 116);
+        display: block;
+    }
+
+    .navbar li{
+        float: left;
+        flex: 1;
+        padding: 15px;
+        list-style: none; 
+    }
